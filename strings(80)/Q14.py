@@ -1,0 +1,5 @@
+string=input("enter a string: ")
+list_of_words = string.split(",")
+seti = set(list_of_words)
+list_of_words = sorted(seti)
+print(",".join(list_of_words))
